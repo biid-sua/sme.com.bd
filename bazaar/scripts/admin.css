@@ -1,0 +1,294 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#666666;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#fcfcfc
+}
+
+b, strong{
+	font-weight:bold;
+}
+
+.banner_top{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:50px;
+	width:100%;
+	float:none;
+}
+
+#wrapper{
+	position:absolute;
+	margin:0;
+	left:0;
+	padding-left:0;
+	height:100%;
+	width:100%;
+}
+
+.content_wrapper{
+	overflow:auto;
+	width:100%;
+	height:91%;
+	position:absolute;
+	left:0px;
+	top:56px;
+}
+
+.content{
+	top:0;
+	width:100%;
+}
+
+.heading{
+	font-size:13px;
+	font-weight:bold;
+	color:#2e7308;
+}
+
+a, a:visited{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#389d01;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+ul.categories li{
+	list-style-type: none;
+	margin-left:-7px;
+	line-height:18px;
+}
+
+.text{
+	border:1px solid #cccccc;
+	color:#666666;
+}
+
+.button{
+	border:1px solid #666666;
+	background-color:#999999;
+	color:#ffffff;
+	font-weight:bold;
+	padding:2px 6px 2px 6px;
+}
+
+th{
+	font-weight:bold;
+	text-align:center;
+}
+
+table.bordered{
+	/*border:1px solid #cccccc;*/
+	border-collapse:collapse;
+	border-width:1px;
+	border-color:#cccccc;
+}
+
+table.bordered td{
+	/*border-bottom:1px solid #cccccc;*/
+}
+
+table.bordered th{
+	/*border-bottom:1px solid #cccccc;*/
+}
+
+table.subtable td{
+	padding:5px 5px 5px 5px;
+	border-bottom:1px solid #cccccc;
+}
+
+table.subtable th{
+	padding:5px 5px 5px 5px;
+	border-bottom:1px solid #cccccc;
+}
+
+a.white, a.white:visited{
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a.white:hover{
+	font-weight:bold;
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+img{
+	border:0;
+}
+
+a.navbar, a.navbar:hover, a.navbar:visited{
+	font-weight:normal;
+	text-decoration:none
+}
+
+span.checkbox {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(checkbox.gif) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+
+a.whitenav, a.whitenav:visited{
+	font-weight:normal;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a.whitenav:hover{
+	font-weight:normal;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a.blacknav, a.blacknav:visited{
+	text-decoration:none;
+	color:#333333;
+	font-weight:bold;
+}
+
+a.blacknav:hover{
+	text-decoration:none;
+	color:#333333;
+	font-weight:bold;
+}
+
+a.normal, a.normal:hover, a.normal:visited{
+	font-weight:normal;
+	text-decoration:none;
+}
+
+table.noborder td{
+	border-top:0;
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+}
+
+.errorcheck{
+	color:#666666;
+	border:1px solid #cccccc;
+	background-color:#f6f6f6;
+}
+
+.hilitebox{
+	border:1px solid black;
+}
+
+.sidebar_alt{
+	width:170px;
+	margin-left:25px;
+	padding-right:20px;
+	height:100%;
+	overflow:hidden;
+}
+
+#top_menu{
+	margin-bottom:-3px;
+}
+
+#top_menu td{
+	background-color:#7fb539;
+}
+
+a.top_menu, a.top_menu:visited{
+	font-size:12px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none
+}
+
+a.top_menu:hover{
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none
+}
+
+#search_button{
+	background:url(../images/search_button_bg.jpg);
+	width:30px;
+	height:20px;
+}
+
+#login_button{
+	background:url(../images/login_button_bg.jpg);
+	width:45px;
+	height:22px;
+}
+
+#footertext, #footertext a{
+	font-size:11px;
+	color:#aaa;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#footertext a:hover{
+	font-size:11px;
+	color:#aaa;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+#searchbox .text, #loginbox .text{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+#sidebar_menu{
+	list-style-type:none;
+	line-height:22px;
+	margin-left:-15px;
+	#margin-left:25px;
+	#margin-top:12px;
+	text-align:left;
+}
+
+.light_bg, .light_bg th, .light_bg td{
+	background-color:#f2feeb;
+	color:#2e7308;
+	border:1px solid #72bc49;
+}
+
+.product_label{
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+}
+
+.product_label_small{
+	font-size:11px;
+	font-weight:bold;
+	color:#333;
+}
+
+.product_label_extra_small{
+	font-size:11px;
+	font-weight:normal;
+	color:#333;
+	line-height:12px;
+}
+
+.product_label_smallest{
+	font-size:10px;
+	font-weight:normal;
+	color:#333;
+	line-height:10px;
+}
